@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <script src="https://kit.fontawesome.com/a2dd6045c4.js" crossorigin="anonymous"></script>
+    <title>Portafolio</title>
+</head>
+<body>
+    <header>
+        <!-- Logo y menú de navegación -->
+        <h2 class="logo"><span>S</span>abri</h2>
+        <nav class="navegacion" aria-label="Navegación principal">
+            <!-- Enlaces de navegación -->
+            <a href="#inicio">Inicio</a>
+            <a href="#Sobre-Mi">Sobre Mi</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#contacto">Contacto</a>
+        </nav> ''
+        <a href="https://wa.me/59899707379" class="btn-hablar" target="_blank" aria-label="Hablemos por WhatsApp">Hablemos</a>
+    </header>
+
+    <section id="inicio" class="inicio">
+        <!-- Sección de inicio -->
+        <div class="contenido">
+            <h2>Hola, soy <span>Sabri Filgueira</span></h2>
+            <h4>Estudiante de JaP 2024</h4>
+            <p>Estoy cursando la segunda fase del curso para adquirir conocimientos y graduarme como desarrolladora web.</p>
+            <div class="btn-grupo">
+                <a href="#contacto">Contáctame</a>
+                <a href="#proyectos">Ver Proyectos</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="Sobre-Mi" class="Sobre-Mi">
+        <!-- Sección Sobre Mi -->
+        <p>¡Bienvenido/a a mi portfolio!</p> 
+        <p>Soy estudiante de desarrollo web en Jóvenes a Programar. Disfruto enfrentando desafíos técnicos y explorando nuevas formas de resolver problemas. Me encanta colaborar con otros y aprender de cada experiencia. Además, estoy siempre abierta a feedback y a nuevas ideas que me ayuden a crecer tanto profesional como personalmente. Me considero una persona apasionada por lo que hago, con una mezcla de habilidades técnicas y blandas que me permiten enfrentar desafíos con creatividad, proactividad y una actitud positiva. Si querés saber más no dudes en contactarme.</p>
+        <p>¡Gracias por visitar mi página!</p>
+        <div class="imagenes">
+            <!-- logos js,css y html -->
+            <img src="icons8-css-50.png" alt="CSS">
+            <img src="icons8-html-50.png" alt="HTML">
+            <img src="icons8-java-script-50.png" alt="JavaScript">
+        </div>
+    </section>
+
+    <section id="proyectos">
+        <!-- Sección de Proyectos -->
+        <h2>Mis Proyectos</h2>
+        <!-- Aca voy a agregar mis futuros proyectos -->
+    </section>
+
+    <section id="contacto">
+        <!-- Sección de contacto -->
+        <h2 class="contacto-titulo">Contáctame</h2>
+        <div class="contacto-form">
+            <form action="mailto:s.filgueira21@gmail.com" method="post" enctype="text/plain">
+                <!-- Campo para el nombre del remitente -->
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                
+                <!-- Campo para el correo electrónico del remitente -->
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <!-- Campo para el mensaje del remitente -->
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                
+                <!-- Botón de envío del formulario -->
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
